@@ -60,7 +60,7 @@
 - Run `sudo terraform apply` to download the Docker image in run the containers.
 - You can verify with `sudo docker ps` that two Nginx Docker containers are actually running. The output should look like this :
     ```
-    PORTS                            NAMES
+    PORTS               NAMES
     ce33c65c1e91        bedece1f06cc        "nginx -g 'daemon of…"   About a minute ago   Up About a minute   443/tcp,  0.0.0.0:32769->80/tcp   nginx-server-1
     92d8b74d2335        bedece1f06cc        "nginx -g 'daemon of…"   About a minute ago   Up About a minute   443/tcp,  0.0.0.0:32768->80/tcp   nginx-server-2
     ```
